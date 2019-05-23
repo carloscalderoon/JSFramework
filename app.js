@@ -10,4 +10,6 @@ app.get('/about', (req, res) => {
     res.send(`I like long walks on the beach.`);
 });
 
-app.listen(1010, () => console.log(`Listening on 1010`));
+const port = (process.env.PORT || 1010)
+
+app.listen(port, () => console.log(`Listening on ${port}`));
