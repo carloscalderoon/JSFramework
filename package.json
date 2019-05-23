@@ -1,0 +1,23 @@
+{
+  "name": "jsframework",
+  "version": "1.0.0",
+  "description": "Blogging Platfrom",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscalderoon/JSFramework.git"
+  },
+  "author": "Carlos Calderon Dominguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloscalderoon/JSFramework/issues"
+  },
+  "homepage": "https://github.com/carloscalderoon/JSFramework#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
